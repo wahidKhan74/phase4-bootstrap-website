@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecom-Website with bootstrap</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- alert  -->
+        <div class="alert alert-info alert-dismissible fade show text-center" role="alert">
+            <strong>Wonderfull ! Ecommerce Blogs</strong> You should check in on some of those blogs below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Sporty Shoes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Products</a>
+                            <a class="dropdown-item" href="#">Rated Products</a>
+                            <a class="dropdown-item" href="#">Featured Products</a>
+                            <a class="dropdown-item" href="#">Todays Deals</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products Catogories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Mobile</a>
+                            <a class="dropdown-item" href="#">Electronic</a>
+                            <a class="dropdown-item" href="#">Mean wear</a>
+                            <a class="dropdown-item" href="#">Kids wear</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>My Bootstrap Ecommerce Blog</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
+                etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <p>
+                <a href="#" class="btn btn-primary my-2">See Product</a>
+                <a href="#" class="btn btn-secondary my-2">Add To Cart</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- product page -->
+    <div class="card-deck">
+        <div class="card">
+          <img src="assets/image/macbook.jpeg"  class="card-img-top image-fluid" alt="macbook.jpeg">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/image/laptop.jpeg" class="card-img-top image-fluid" alt="laptop image">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/image/macbook.jpeg" class="card-img-top image-fluid" alt="iphone 12">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets//js/bootstrap.min.js"></script>
+</body>
+
+</html>
